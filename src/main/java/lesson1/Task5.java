@@ -2,7 +2,6 @@ package lesson1;
 
 public class Task5 {
     public String reverse(String input) {
-
         char[] reversedCharSequence = new char[input.length()];
         int index = input.length() - 1;
 

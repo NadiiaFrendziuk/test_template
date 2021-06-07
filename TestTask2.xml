@@ -3,9 +3,7 @@
 <suite name="TestSuiteTask2">
     <test name="TestTask">
         <classes>
-            <class name="Task.TestTask2">
-
-            </class>
+            <class name="Task.TestTask2"/>
         </classes>
     </test>
 

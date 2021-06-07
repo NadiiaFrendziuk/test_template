@@ -4,8 +4,7 @@
     <test name="TestTask1">
         <parameter name="min" value="2"/>
         <classes>
-            <class name="Task.TestTask1">
-            </class>
+            <class name="Task.TestTask1"/>
         </classes>
     </test>
 

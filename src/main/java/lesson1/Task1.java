@@ -5,7 +5,6 @@ public class Task1 {
     public Task1() {
         this.min = 5;
     }
-
     private int min;
 
     public int getMin() {

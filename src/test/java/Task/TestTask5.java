@@ -21,6 +21,7 @@ public class TestTask5 {
     public void shouldReturnTrue_ForPalindromes() {
         Task5 stringUtilities = new Task5();
 
+
         boolean actualResult = stringUtilities.isPalindrome("racecar");
         Assert.assertTrue(actualResult);
     }

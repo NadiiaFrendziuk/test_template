@@ -31,11 +31,11 @@ public class TestTask2 {
         int actualRowCount = i.getRowCount();
         Assert.assertEquals(actualRowCount, expectedRowsCount, "Is a number of rows");
     }
-
     @DataProvider(name = "rows")
     public Object[][] dataProvider() {
         Object[][] arr = {{5, 2}, {5, 0}, {5, -2}};
         return arr;
+
 
 
     }

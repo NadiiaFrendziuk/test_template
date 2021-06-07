@@ -57,6 +57,7 @@ public class TestTask1 {
         int expectedMin = expected;
         Task1 t = new Task1();
         t.setMin(setMin);
+
        int actualMin = t.getMin();
 
         Assert.assertEquals(actualMin, expectedMin, "Is a min value");
