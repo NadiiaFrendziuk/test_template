@@ -2,8 +2,9 @@ package lesson1;
 
 public class Task2 {
 
-    public Task2() {
-        this.rowCount = 10;
+    public Task2()
+    {
+        this.rowCount = 0;
     }
     private int rowCount;
 
@@ -12,7 +13,7 @@ public class Task2 {
     }
 
     public void setRowCount(int rowCount) {
-        if (rowCount != 0) {
+        if (rowCount >= 5) {
             this.rowCount = rowCount;
         }
     }

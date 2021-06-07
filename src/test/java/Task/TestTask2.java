@@ -33,7 +33,7 @@ public class TestTask2 {
     }
     @DataProvider(name = "rows")
     public Object[][] dataProvider() {
-        Object[][] arr = {{5, 2}, {5, 0}, {5, -2}};
+        Object[][] arr = {{5, 5}, {5, 0}, {5, -2}, {5, 101}};
         return arr;
 
 
@@ -44,7 +44,9 @@ public class TestTask2 {
         int expectedRowCount = expected;
         Task2 i = new Task2();
         i.setRowCount(setRowCount);
+
         int actualRowCount = i.getRowCount();
+        Assert.assertEquals(actualRowCount, expectedRowCount, "Is a min value");
 }
     }
 
