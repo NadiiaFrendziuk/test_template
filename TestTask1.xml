@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuiteTask1">
+    <test name="TestTask1">
+        <parameter name="min" value="2"/>
+        <classes>
+            <class name="Task.TestTask1">
+            </class>
+        </classes>
+    </test>
+
+</suite>
