@@ -46,7 +46,7 @@ public class TestTask2 {
         i.setRowCount(setRowCount);
 
         int actualRowCount = i.getRowCount();
-        Assert.assertEquals(actualRowCount, expectedRowCount, "Is a min value");
+        Assert.assertEquals(actualRowCount, expectedRowCount, "Is a row count");
 }
     }
 
