@@ -1,6 +1,5 @@
 package Task;
 
-import lesson1.Task1;
 import lesson1.Task2;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
