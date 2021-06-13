@@ -37,7 +37,10 @@ public class RegisterNegativeAllEmptyFields extends AmazonRegisterNegativeTestBa
         String color = driver.findElement(id).getCssValue("border-color");
         String NoTextInBox = driver.findElement(id).getAttribute("value");
         driver.findElement(By.xpath("//input[@id='ap_customer_name']")).click();
+        String expectedErrorMsg = "Enter your name";
 
+        WebElement exp = driver.findElement(By.xpath("//div[@id='auth-customerName-missing-alert']//div[@class='a-alert-content']"));
+        String actualErrorMsg = exp.getText();
 
 
         Actions actions = new Actions(driver);
@@ -52,7 +55,10 @@ public class RegisterNegativeAllEmptyFields extends AmazonRegisterNegativeTestBa
         String color1 = driver.findElement(id1).getCssValue("border-color");
         String NoTextInBox1 = driver.findElement(id).getAttribute("value");
         driver.findElement(By.xpath("//input[@id='ap_email']")).click();
+        String expectedErrorMsg1 = "Enter your email or mobile phone number";
 
+        WebElement exp1 = driver.findElement(By.xpath("//div[@id='auth-email-missing-alert']//div[@class='a-alert-content']"));
+        String actualErrorMsg1 = exp1.getText();
 
 
         Actions actions1 = new Actions(driver);
@@ -67,12 +73,26 @@ public class RegisterNegativeAllEmptyFields extends AmazonRegisterNegativeTestBa
         String color2 = driver.findElement(id1).getCssValue("border-color");
         String NoTextInBox2 = driver.findElement(id2).getAttribute("value");
         driver.findElement(By.xpath("//input[@id='ap_password']")).click();
+        String expectedErrorMsg2 = "Minimum 6 characters required";
+
+        WebElement exp2 = driver.findElement(By.xpath("//div[@id='auth-password-missing-alert']//div[@class='a-alert-content']"));
+        String actualErrorMsg2 = exp2.getText();
 
 
         softAssert.assertEquals(color, "rgb(221, 0, 0)");
+        System.out.println(color);
+        softAssert.assertEquals(actualErrorMsg, expectedErrorMsg);
+        System.out.println(actualErrorMsg);
         softAssert.assertEquals(color1, "rgb(221, 0, 0)");
+        System.out.println(color1);
+        softAssert.assertEquals(actualErrorMsg1, expectedErrorMsg1);
+        System.out.println(actualErrorMsg1);
         softAssert.assertEquals(color2, "rgb(221, 0, 0)");
+        System.out.println(color2);
+        softAssert.assertEquals(actualErrorMsg2, expectedErrorMsg2);
+        System.out.println(actualErrorMsg2);
         softAssert.assertAll();
+
 
 
 
