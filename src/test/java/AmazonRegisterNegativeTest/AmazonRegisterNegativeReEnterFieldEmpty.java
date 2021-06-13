@@ -58,20 +58,20 @@ public class AmazonRegisterNegativeReEnterFieldEmpty extends AmazonRegisterNegat
 
         Actions actions2 = new Actions(driver);
         actions.moveToElement(driver.findElement(id)).perform();
-        String color = driver.findElement(id).getCssValue("border-bottom-color");
+        String color = driver.findElement(id).getCssValue("border-color");
         String NoTextInBox = driver.findElement(id).getAttribute("value");
         driver.findElement(By.xpath("//input[@id='ap_customer_name']")).click();
 
         Actions actions3 = new Actions(driver);
         actions.moveToElement(driver.findElement(id1)).perform();
 
-        String color1 = driver.findElement(id1).getCssValue("border-bottom-color");
+        String color1 = driver.findElement(id1).getCssValue("border-color");
         String NoTextInBox1 = driver.findElement(id1).getAttribute("value");
         driver.findElement(By.xpath("//input[@id='ap_email']")).click();
 
         Actions actions4 = new Actions(driver);
         actions.moveToElement(driver.findElement(id)).perform();
-        String color2 = driver.findElement(id2).getCssValue("border-bottom-color");
+        String color2 = driver.findElement(id2).getCssValue("border-color");
         String NoTextInBox2 = driver.findElement(id2).getAttribute("value");
         driver.findElement(By.xpath("//input[@id='ap_password']")).click();
 
@@ -87,11 +87,11 @@ public class AmazonRegisterNegativeReEnterFieldEmpty extends AmazonRegisterNegat
         String actualErrorMsg = exp.getText();
 
 
-        softAssert.assertEquals(color, "rgb(166, 166, 166)");
+        softAssert.assertEquals(color, "rgb(148, 148, 148) rgb(166, 166, 166) rgb(166, 166, 166)");
         System.out.println(color);
-        softAssert.assertEquals(color1, "rgb(166, 166, 166)");
+        softAssert.assertEquals(color1, "rgb(148, 148, 148) rgb(166, 166, 166) rgb(166, 166, 166)");
         System.out.println(color1);
-        softAssert.assertEquals(color2, "rgb(166, 166, 166)");
+        softAssert.assertEquals(color2, "rgb(148, 148, 148) rgb(166, 166, 166) rgb(166, 166, 166)");
         System.out.println(color2);
         softAssert.assertEquals(color3, "rgb(221, 0, 0)");
         System.out.println(color3);
