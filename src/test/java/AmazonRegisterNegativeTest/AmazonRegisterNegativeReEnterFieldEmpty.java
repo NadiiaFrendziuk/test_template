@@ -23,7 +23,17 @@ public class AmazonRegisterNegativeReEnterFieldEmpty extends AmazonRegisterNegat
 
         SoftAssert softAssert = new SoftAssert();
 
-        driver.findElement(new By.ByXPath("//a[@data-csa-c-content-id='nav_ya_signin']")).click();
+        Actions hover = new Actions(driver);
+
+        WebElement Elem_to_hover = driver.findElement(By.id("nav-link-accountList"));
+
+        hover.moveToElement(Elem_to_hover);
+
+        hover.build();
+
+        hover.perform();
+
+        driver.findElement(new By.ByXPath("//a[@data-nav-role='signin']")).click();
         driver.findElement(new By.ByXPath("//a[@id='createAccountSubmit']")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
