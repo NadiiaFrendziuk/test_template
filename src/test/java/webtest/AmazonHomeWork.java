@@ -19,16 +19,22 @@ public class AmazonHomeWork {
         driver.findElement(By.xpath("//a[@data-csa-c-content-id='nav_cs_gb_intl_52df97a2eee74206a8343034e85cd058']")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        String itemText1 = driver.findElement(By.xpath("//div[@id = '100_dealView_2']//span[@class='gb-font-size-medium inlineBlock unitLineHeight dealPriceText']")).getText();
+
+        String itemText1 = driver.findElement(By.xpath("//div[@class='a-row a-spacing-top-mini unitLineHeight']//span[contains(text(),'List:')]/../preceding-sibling::div[@class='a-row priceBlock unitLineHeight']//span[@class='gb-font-size-medium inlineBlock unitLineHeight dealPriceText']")).getText();
         itemText1 = itemText1.replaceAll("\\$|(?<=\\d),(?=\\d)", "");
-        String itemText2 = driver.findElement(By.xpath("//div[@id = '100_dealView_2']//span[@class='a-color-base gb-font-size-base inlineBlock unitLineHeight a-text-strike']")).getText();
+        String itemText2 = driver.findElement(By.xpath("//div[@class='a-row a-spacing-top-mini unitLineHeight']//span[contains(text(),'List:')]//following::span")).getText();
         itemText2 = itemText2.replaceAll("\\$|(?<=\\d),(?=\\d)", "");
         System.out.print("New price: " + itemText1);
         System.out.println(", old price: " + itemText2);
 
 
-//        driver.quit();
-        }
+
+
+
+
+        driver.quit();
+    }
 
     }
+
 
