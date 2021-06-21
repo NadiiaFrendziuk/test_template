@@ -7,6 +7,7 @@
             <class name="Task.TestTask1"/>
             <class name="Task.TestTask2"/>
             <class name="Task.TestTask5"/>
+            <class name="AmazonSearch.HomeWorkiPhoneSearch"/>
         </classes>
     </test>
 
