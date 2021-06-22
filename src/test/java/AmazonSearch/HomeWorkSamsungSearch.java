@@ -9,29 +9,44 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.util.List;
+import java.util.*;
 
 public class HomeWorkSamsungSearch extends TestBase {
 
     String search1 = "Samsung";
-    ExpectedCondition custom;
     HomePage homePage;
+    TodaysDealsPage todaysPage;
     ResultAndFilterPage resultAndFilterPage;
 
     @BeforeMethod
     public void setUp1() {
         homePage = new HomePage(driver);
+        todaysPage = new TodaysDealsPage(driver);
         resultAndFilterPage = new ResultAndFilterPage(driver);
     }
 
     @Test
-    public void getOnlySamsungInResult() throws Exception {
+    public void getOnlyIphoneInResult() throws Exception {
         homePage.open()
                 .search(search1);
-        List<WebElement> lst = resultAndFilterPage.returnItemsName();
+        List<WebElement> lstSam = resultAndFilterPage.returnItemsName();
 
-        System.out.println(lst.size());
-        Assert.assertEquals(lst.size(), 22);
+
+        System.out.println(lstSam.size());
+
+
+        List<String> itemText = new ArrayList<>();
+
+        for (WebElement el:lstSam) {
+            itemText.add(el.getText());
+        }
+
+        itemText.forEach(System.out::println);
+
+        for (String a:itemText) {
+            Assert.assertTrue(a.toLowerCase(Locale.ROOT).contains("samsung"), "Doesn't contain "+a);
+        }
 
     }
+
 }
