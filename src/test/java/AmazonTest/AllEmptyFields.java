@@ -1,20 +1,15 @@
-package AmazonRegisterNegativeTest;
+package AmazonTest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import java.lang.reflect.Field;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import static org.testng.asserts.SoftAssert.*;
-
-public class RegisterNegativeAllEmptyFields extends AmazonRegisterNegativeTestBase {
+public class AllEmptyFields extends AmazonTestBase {
 
     @Test
 
@@ -29,13 +24,9 @@ public class RegisterNegativeAllEmptyFields extends AmazonRegisterNegativeTestBa
 
         WebElement Elem_to_hover = driver.findElement(By.id("nav-link-accountList"));
 
-        hover.moveToElement(Elem_to_hover);
+        hover.moveToElement(Elem_to_hover).build().perform();
 
-        hover.build();
-
-        hover.perform();
-
-        driver.findElement(new By.ByXPath("//a[@data-nav-role='signin']")).click();
+        driver.findElement(new By.ByXPath("//div[@id='nav-al-signin']")).click();
         driver.findElement(new By.ByXPath("//a[@id='createAccountSubmit']")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(new By.ByXPath("//input[@id='continue']")).click();

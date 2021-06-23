@@ -73,6 +73,7 @@ public class ResultAndFilterPage extends BasePage {
     public List<WebElement> returnItemsName() {
 
         return driver.findElements(itemName);
+
     }
 
     public List<WebElement> returnItemsBrand() {
