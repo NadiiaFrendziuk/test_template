@@ -17,18 +17,20 @@ public class ScreenShot {
     public ScreenShot(WebDriver driver) {
         this.driver = driver;
     }
-    public static void makeScreenShot(ITestResult result){
+
+    public static void makeScreenShot(ITestResult result) {
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File src = screenshot.getScreenshotAs(OutputType.FILE);
         Path currentRelativePath = Paths.get("");
-        try {
-            FileUtils.copyFile(src, new File(currentRelativePath.toAbsolutePath() + "\\screenshots\\"
-                    + result.getTestClass().getName().replace(".", "\\\\")
-                    + "\\" + result.getMethod().getConstructorOrMethod().getName() + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
+            try {
+                FileUtils.copyFile(src, new File(currentRelativePath.toAbsolutePath() + "\\screenshots\\"
+                        + result.getTestClass().getName().replace(".", "\\\\")
+                        + "\\" + result.getMethod().getConstructorOrMethod().getName() + ".png"));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
-    }
 
     }
+
 

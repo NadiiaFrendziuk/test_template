@@ -10,6 +10,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import utils.PropertyLoader;
 import utils.ScreenShot;
 
 public class TestBase {
@@ -25,16 +26,12 @@ public class TestBase {
         options.addArguments("start-maximized");
         driver = new ChromeDriver(options);
         result.setAttribute("driver", driver);
+
     }
-
-
-
-
 
     @AfterMethod
     public void tearDown(ITestResult result) {
-        ScreenShot screenShot = new ScreenShot(driver);
-        ScreenShot.makeScreenShot(result);
+
         driver.quit();
     }
 }

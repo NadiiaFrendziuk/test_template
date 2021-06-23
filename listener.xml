@@ -1,17 +1,20 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite allow-return-values="true" name="TestSuite">
+
+<suite name="TestSuiteListener">
     <listeners>
-        <listener class-name="utils.AnnotationTransformation" />
+        <listener class-name="utils.TestListener"></listener>
+        <listener class-name="utils.AnnotationTransformation"></listener>
+        <listener class-name="utils.PropertyLoader"></listener>
     </listeners>
-    <test thread-count="1"  name="test_framework_template">
+    <test name="Test">
         <parameter name="url" value="https://www.amazon.com/" />
         <parameter name="username" value="nfrendziuk" />
         <parameter name="password" value="4esZXdr5" />
         <parameter name="search1" value="Samsung" />
         <parameter name="search2" value="iPhone" />
         <classes>
-            <class name="HomeWork11.PositiveTest"/>
             <class name="HomeWork11.NegativeTest"/>
+            <class name="HomeWork11.PositiveTest"/>
         </classes>
     </test>
 </suite>
