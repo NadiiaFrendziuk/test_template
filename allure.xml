@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" thread-count="2">
+    <listeners>
+        <listener class-name="utils.TestListener"></listener>
+<!--        <listener class-name="utils.AnnotationTransformation"></listener>-->
+    </listeners>
+    <test name="TestHM13">
+        <classes>
+            <class name="HomeWork13.HomeWorkLaptopFilterRandom" />
+        </classes>
+    </test>
+</suite>

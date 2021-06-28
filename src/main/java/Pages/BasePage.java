@@ -1,14 +1,18 @@
 package Pages;
 
+import io.qameta.allure.Step;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.DataProvider;
+
+import java.util.List;
+import java.util.Random;
 
 
 public abstract class BasePage {
@@ -45,8 +49,10 @@ public abstract class BasePage {
     public BasePage() {
 
     }
-
+    @Step ("Open page")
     protected abstract BasePage open();
+
+    @Step ("Select Language {language}")
 
     public BasePage selectLanguage(String language) {
         actions.moveToElement(driver.findElement(btnLanFlag)).perform();
@@ -71,6 +77,7 @@ public abstract class BasePage {
         return this;
     }
 
+    @Step ("Search next product {search}")
     public BasePage search1(String search) throws Exception {
         log.info("in search and search str: " + search);
         if (search.equals("HP")) {
@@ -86,9 +93,10 @@ public abstract class BasePage {
 
         return this;
     }
+
+    @Step ("Search next product {search}")
     public BasePage search2(String search) throws Exception {
         log.info("in search and search str: " + search);
-
         driver.findElement(navBarInput).click();
         driver.findElement(navBarInput).clear();
         driver.findElement(navBarInput).sendKeys(search, Keys.ENTER);
@@ -99,6 +107,8 @@ public abstract class BasePage {
 
         return this;
     }
+
+    @Step ("Search next product {search}")
     public BasePage search3(String search) throws Exception {
         log.info("in search and search str: " + search);
 
@@ -112,6 +122,8 @@ public abstract class BasePage {
 
         return this;
     }
+
+    @Step ("Search next product {search}")
     public BasePage search4(String search) throws Exception {
         log.info("in search and search str: " + search);
 
@@ -125,6 +137,8 @@ public abstract class BasePage {
 
         return this;
     }
+
+    @Step ("Search next product {search}")
     public BasePage search5(String search) throws Exception {
         log.info("in search and search str: " + search);
 
@@ -138,6 +152,8 @@ public abstract class BasePage {
 
         return this;
     }
+
+    @Step ("Search next product {search}")
     public BasePage search6(String search) throws Exception {
         log.info("in search and search str: " + search);
 
@@ -151,6 +167,8 @@ public abstract class BasePage {
 
         return this;
     }
+
+    @Step ("Search next product {search}")
     public BasePage search7(String search) throws Exception {
         log.info("in search and search str: " + search);
 
@@ -164,6 +182,8 @@ public abstract class BasePage {
 
         return this;
     }
+
+    @Step ("Search next product {search}")
     public BasePage search8(String search) throws Exception {
         log.info("in search and search str: " + search);
 
@@ -178,6 +198,8 @@ public abstract class BasePage {
 
         return this;
     }
+
+    @Step ("Search next product {search}")
     public BasePage search9(String search) throws Exception {
         log.info("in search and search str: " + search);
 
@@ -192,6 +214,8 @@ public abstract class BasePage {
 
         return this;
     }
+
+    @Step ("Search next product {search}")
     public BasePage search10(String search) throws Exception {
         log.info("in search and search str: " + search);
 
@@ -206,9 +230,38 @@ public abstract class BasePage {
 
         return this;
     }
+    @Step ("Search next product {search}")
+    public BasePage Random (String search) {
 
+            String[] value = {"locatorFilter1", "locatorFilter2", "locatorFilter3", "locatorFilter4", "locatorFilter5", "locatorFilter6", "locatorFilter7", "locatorFilter8", "locatorFilter9", "locatorFilter10"};
+            Random N = new Random();
+            int randomNumber = N.nextInt(value.length);
+            System.out.println(value[randomNumber]);
+            int arrayLength = value.length;
+            System.out.println("The size of the array is: " + arrayLength);
+
+        driver.findElement(navBarInput).click();
+        driver.findElement(navBarInput).clear();
+        driver.findElement(navBarInput).sendKeys(search, Keys.ENTER);
+        driver.findElement(seeMore).click();
+        List<WebElement> allBrands = driver.findElements(By.xpath("//div[@id='brandsRefinements']//li[@class='a-spacing-micro']"));
+        allBrands.get(randomNumber).click();
+
+
+        return this;
+
+        }
+
+    private int randomNumber(double v) {
+        return 0;
+    }
 
 }
+
+
+
+
+
 
 
 

@@ -29,15 +29,15 @@ public class AmazonIphoneSearchTest extends TestBase {
 
     }
 
-    @Test
-    public void getOnlyIphoneInResult() throws Exception {
-        homePage.open()
-                .search(search2);
-        List<WebElement> lst = resultAndFilterPage.returnItemsName();
+//    @Test
+//    public void getOnlyIphoneInResult() throws Exception {
+//        homePage.open()
+//                .search(search2);
+//        List<WebElement> lst = resultAndFilterPage.returnItemsName();
+//
+//        System.out.println(lst.size());
 
-        System.out.println(lst.size());
-
-    }
+//    }
 
 
     @Test
@@ -48,13 +48,13 @@ public class AmazonIphoneSearchTest extends TestBase {
         resultAndFilterPage.setPriceRangeAndClickGoBtn("100", "150")
                 .selectLanguage("English - EN")
                 .search(search2);
-        resultAndFilterPage.setPriceRangeAndClickGoBtn("100", "150");
+        resultAndFilterPage.setPriceRangeAndClickGoBtn("300", "500");
 
         System.out.println(resultAndFilterPage.returnFirstItemPrice().getSize());
         System.out.println(resultAndFilterPage.returnFirstItemPriceAsText());
 
         Float priceInFloat = resultAndFilterPage.returnFirstItemPriceInFloat();
-        Assert.assertTrue(priceInFloat > 100 && priceInFloat < 150, "Price isn't in range " + priceInFloat);
+        Assert.assertTrue(priceInFloat > 300 && priceInFloat < 500, "Price isn't in range " + priceInFloat);
 
 
 //        By item = By.xpath("//div[@data-component-type='s-search-result' and descendant::span[@class='a-price']]");

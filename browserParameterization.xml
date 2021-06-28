@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteListener" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="utils.TestListener"></listener>
+        <listener class-name="utils.AnnotationTransformation"></listener>
+    </listeners>
+    <test name="FirefoxTest">
+        <parameter name="browser"  value="firefox" />
+        <classes>
+            <class name="HomeWork12.NegativeTestCrossBrowser" />
+            <class name="HomeWork12.PositiveTestCrossBrowser" />
+        </classes>
+    </test>
+    <test name="ChromeTest">
+        <parameter name="browser" value= "chrome" />
+        <classes>
+            <class name="HomeWork12.NegativeTestCrossBrowser" />
+            <class name="HomeWork12.PositiveTestCrossBrowser" />
+        </classes>
+    </test>
+</suite>

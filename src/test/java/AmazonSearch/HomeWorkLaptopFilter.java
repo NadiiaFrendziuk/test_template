@@ -2,6 +2,7 @@ package AmazonSearch;
 
 import Pages.HomePage;
 import Pages.ResultAndFilterPage;
+import Pages.TodaysDealsPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.testng.Assert;
@@ -13,14 +14,16 @@ import java.util.List;
 
 public class HomeWorkLaptopFilter extends TestBase {
     String search3 = "Laptop";
-    ExpectedCondition custom;
     HomePage homePage;
+    TodaysDealsPage todaysPage;
     ResultAndFilterPage resultAndFilterPage;
 
     @BeforeMethod
     public void setUp1() {
         homePage = new HomePage(driver);
+        todaysPage = new TodaysDealsPage(driver);
         resultAndFilterPage = new ResultAndFilterPage(driver);
+
     }
     @Test
     public void getItemsBrandHp() throws Exception {

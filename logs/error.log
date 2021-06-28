@@ -813,3 +813,417 @@
 2021-06-23 21:59:24 INFO  HomePage:59 - in search and search str: iPhone
 2021-06-23 21:59:24 INFO  HomePage:61 - in if, and search: iPhone
 2021-06-23 21:59:24 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:18:49 INFO  HomePage:15 - in HomePage
+2021-06-26 17:18:53 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:18:53 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:18:53 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:19:00 INFO  HomePage:15 - in HomePage
+2021-06-26 17:19:03 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:19:03 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:19:03 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:19:10 INFO  HomePage:15 - in HomePage
+2021-06-26 17:19:14 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:19:14 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:19:14 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:19:19 INFO  HomePage:15 - in HomePage
+2021-06-26 17:19:28 INFO  HomePage:59 - in search and search str: Samsung
+2021-06-26 17:19:28 INFO  HomePage:63 - in search and search str: Samsung
+2021-06-26 17:19:28 INFO  HomePage:65 - in if, and search: Samsung
+2021-06-26 17:19:37 INFO  ResultAndFilterPage:59 - in search and search str: iPhone
+2021-06-26 17:19:37 INFO  ResultAndFilterPage:61 - in if, and search: iPhone
+2021-06-26 17:19:37 INFO  ResultAndFilterPage:63 - in search and search str: iPhone
+2021-06-26 17:19:42 INFO  ResultAndFilterPage:57 - in returnFirstItemPrice()
+2021-06-26 17:24:06 INFO  HomePage:15 - in HomePage
+2021-06-26 17:24:11 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:24:11 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:24:11 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:24:16 INFO  HomePage:15 - in HomePage
+2021-06-26 17:24:21 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:24:21 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:24:21 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:24:27 INFO  HomePage:15 - in HomePage
+2021-06-26 17:24:31 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:24:31 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:24:31 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:24:37 INFO  HomePage:15 - in HomePage
+2021-06-26 17:24:44 INFO  HomePage:59 - in search and search str: Samsung
+2021-06-26 17:24:44 INFO  HomePage:63 - in search and search str: Samsung
+2021-06-26 17:24:44 INFO  HomePage:65 - in if, and search: Samsung
+2021-06-26 17:24:52 INFO  ResultAndFilterPage:59 - in search and search str: iPhone
+2021-06-26 17:24:52 INFO  ResultAndFilterPage:61 - in if, and search: iPhone
+2021-06-26 17:24:52 INFO  ResultAndFilterPage:63 - in search and search str: iPhone
+2021-06-26 17:24:56 INFO  ResultAndFilterPage:57 - in returnFirstItemPrice()
+2021-06-26 17:27:34 INFO  HomePage:15 - in HomePage
+2021-06-26 17:27:38 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:27:38 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:27:38 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:27:44 INFO  HomePage:15 - in HomePage
+2021-06-26 17:27:48 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:27:48 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:27:48 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:27:54 INFO  HomePage:15 - in HomePage
+2021-06-26 17:27:58 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:27:58 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:27:58 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:28:04 INFO  HomePage:15 - in HomePage
+2021-06-26 17:28:12 INFO  HomePage:59 - in search and search str: Samsung
+2021-06-26 17:28:12 INFO  HomePage:63 - in search and search str: Samsung
+2021-06-26 17:28:12 INFO  HomePage:65 - in if, and search: Samsung
+2021-06-26 17:28:21 INFO  ResultAndFilterPage:59 - in search and search str: iPhone
+2021-06-26 17:28:21 INFO  ResultAndFilterPage:61 - in if, and search: iPhone
+2021-06-26 17:28:21 INFO  ResultAndFilterPage:63 - in search and search str: iPhone
+2021-06-26 17:28:25 INFO  ResultAndFilterPage:57 - in returnFirstItemPrice()
+2021-06-26 17:31:02 INFO  HomePage:15 - in HomePage
+2021-06-26 17:31:07 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:31:07 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:31:07 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:31:13 INFO  HomePage:15 - in HomePage
+2021-06-26 17:31:17 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:31:17 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:31:17 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:31:23 INFO  HomePage:15 - in HomePage
+2021-06-26 17:31:27 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 17:31:27 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 17:31:27 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 17:31:33 INFO  HomePage:15 - in HomePage
+2021-06-26 17:31:41 INFO  HomePage:59 - in search and search str: Samsung
+2021-06-26 17:31:41 INFO  HomePage:63 - in search and search str: Samsung
+2021-06-26 17:31:41 INFO  HomePage:65 - in if, and search: Samsung
+2021-06-26 17:31:50 INFO  ResultAndFilterPage:59 - in search and search str: iPhone
+2021-06-26 17:31:50 INFO  ResultAndFilterPage:61 - in if, and search: iPhone
+2021-06-26 17:31:50 INFO  ResultAndFilterPage:63 - in search and search str: iPhone
+2021-06-26 17:31:54 INFO  ResultAndFilterPage:57 - in returnFirstItemPrice()
+2021-06-26 18:13:06 INFO  HomePage:15 - in HomePage
+2021-06-26 18:13:07 INFO  HomePage:15 - in HomePage
+2021-06-26 18:13:12 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 18:13:12 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 18:13:12 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 18:13:13 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 18:13:13 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 18:13:13 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 18:13:22 INFO  HomePage:15 - in HomePage
+2021-06-26 18:13:27 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 18:13:27 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 18:13:27 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 18:31:01 INFO  HomePage:15 - in HomePage
+2021-06-26 18:31:06 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 18:31:06 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 18:31:06 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 18:31:13 INFO  HomePage:15 - in HomePage
+2021-06-26 18:31:18 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 18:31:18 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 18:31:18 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 18:31:23 INFO  HomePage:15 - in HomePage
+2021-06-26 18:31:28 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 18:31:28 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 18:31:28 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 19:04:21 INFO  HomePage:15 - in HomePage
+2021-06-26 19:04:24 INFO  HomePage:15 - in HomePage
+2021-06-26 19:04:28 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 19:04:28 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 19:04:28 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 19:04:31 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 19:04:31 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 19:04:31 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 19:04:40 INFO  HomePage:15 - in HomePage
+2021-06-26 19:04:44 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 19:04:44 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 19:04:44 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:16:07 INFO  HomePage:15 - in HomePage
+2021-06-26 22:16:12 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:16:12 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:16:12 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:18:32 INFO  HomePage:15 - in HomePage
+2021-06-26 22:18:35 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:18:35 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:18:35 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:19:18 INFO  HomePage:15 - in HomePage
+2021-06-26 22:19:25 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:19:25 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:19:25 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:19:35 INFO  HomePage:15 - in HomePage
+2021-06-26 22:19:39 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:19:39 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:19:39 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:20:01 INFO  HomePage:15 - in HomePage
+2021-06-26 22:20:07 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:20:07 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:20:07 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:20:19 INFO  HomePage:15 - in HomePage
+2021-06-26 22:20:23 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:20:23 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:20:23 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:24:20 INFO  HomePage:15 - in HomePage
+2021-06-26 22:24:20 INFO  HomePage:15 - in HomePage
+2021-06-26 22:24:26 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:24:26 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:24:26 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:24:26 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:24:26 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:24:26 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:24:58 INFO  HomePage:15 - in HomePage
+2021-06-26 22:24:59 INFO  HomePage:15 - in HomePage
+2021-06-26 22:25:02 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:25:02 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:25:02 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:25:03 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:25:03 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:25:03 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:32:27 INFO  HomePage:15 - in HomePage
+2021-06-26 22:32:31 INFO  HomePage:15 - in HomePage
+2021-06-26 22:32:47 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:32:47 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:32:47 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:32:49 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:32:49 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:32:49 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:33:30 INFO  HomePage:15 - in HomePage
+2021-06-26 22:33:31 INFO  HomePage:15 - in HomePage
+2021-06-26 22:33:39 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:33:39 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:33:39 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-26 22:33:51 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-26 22:33:51 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-26 22:33:51 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-27 11:04:01 INFO  HomePage:15 - in HomePage
+2021-06-27 11:04:01 INFO  HomePage:15 - in HomePage
+2021-06-27 11:04:07 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-27 11:04:07 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-27 11:04:07 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-27 11:04:08 INFO  HomePage:59 - in search and search str: iPhone
+2021-06-27 11:04:08 INFO  HomePage:61 - in if, and search: iPhone
+2021-06-27 11:04:08 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-27 15:46:44 INFO  HomePage:16 - in HomePage
+2021-06-27 15:46:47 INFO  HomePage:134 - in search and search str: Laptop
+2021-06-27 15:46:51 INFO  HomePage:139 - info
+2021-06-27 15:46:56 INFO  HomePage:16 - in HomePage
+2021-06-27 15:47:04 INFO  HomePage:191 - in search and search str: Laptop
+2021-06-27 15:47:08 INFO  HomePage:196 - info
+2021-06-27 15:47:12 INFO  HomePage:16 - in HomePage
+2021-06-27 15:47:17 INFO  HomePage:92 - in search and search str: Laptop
+2021-06-27 15:47:20 INFO  HomePage:97 - info
+2021-06-27 15:47:25 INFO  HomePage:16 - in HomePage
+2021-06-27 15:47:29 INFO  HomePage:106 - in search and search str: Laptop
+2021-06-27 15:47:32 INFO  HomePage:111 - info
+2021-06-27 15:47:38 INFO  HomePage:16 - in HomePage
+2021-06-27 15:47:42 INFO  HomePage:76 - in search and search str: Laptop
+2021-06-27 15:47:45 INFO  HomePage:83 - info
+2021-06-27 15:47:51 INFO  HomePage:16 - in HomePage
+2021-06-27 15:47:55 INFO  HomePage:120 - in search and search str: Laptop
+2021-06-27 15:47:58 INFO  HomePage:125 - info
+2021-06-27 15:48:03 INFO  HomePage:16 - in HomePage
+2021-06-27 15:48:07 INFO  HomePage:148 - in search and search str: Laptop
+2021-06-27 15:48:11 INFO  HomePage:153 - info
+2021-06-27 15:48:16 INFO  HomePage:16 - in HomePage
+2021-06-27 15:48:20 INFO  HomePage:162 - in search and search str: Laptop
+2021-06-27 15:48:24 INFO  HomePage:167 - info
+2021-06-27 15:48:29 INFO  HomePage:16 - in HomePage
+2021-06-27 15:48:33 INFO  HomePage:176 - in search and search str: Laptop
+2021-06-27 15:48:37 INFO  HomePage:181 - info
+2021-06-27 15:48:41 INFO  HomePage:16 - in HomePage
+2021-06-27 15:48:45 INFO  HomePage:206 - in search and search str: Laptop
+2021-06-27 15:48:48 INFO  HomePage:211 - info
+2021-06-27 17:41:30 INFO  HomePage:16 - in HomePage
+2021-06-27 17:41:33 INFO  HomePage:60 - in search and search str: iPhone
+2021-06-27 17:41:33 INFO  HomePage:62 - in if, and search: iPhone
+2021-06-27 17:41:33 INFO  HomePage:64 - in search and search str: iPhone
+2021-06-27 17:41:44 INFO  HomePage:16 - in HomePage
+2021-06-27 17:41:48 INFO  HomePage:60 - in search and search str: iPhone
+2021-06-27 17:41:48 INFO  HomePage:62 - in if, and search: iPhone
+2021-06-27 17:41:48 INFO  HomePage:64 - in search and search str: iPhone
+2021-06-27 17:41:54 INFO  HomePage:16 - in HomePage
+2021-06-27 17:41:58 INFO  HomePage:60 - in search and search str: iPhone
+2021-06-27 17:41:58 INFO  HomePage:62 - in if, and search: iPhone
+2021-06-27 17:41:58 INFO  HomePage:64 - in search and search str: iPhone
+2021-06-27 17:43:03 INFO  HomePage:16 - in HomePage
+2021-06-27 17:43:07 INFO  HomePage:60 - in search and search str: iPhone
+2021-06-27 17:43:07 INFO  HomePage:62 - in if, and search: iPhone
+2021-06-27 17:43:07 INFO  HomePage:64 - in search and search str: iPhone
+2021-06-27 17:43:16 INFO  HomePage:16 - in HomePage
+2021-06-27 17:43:21 INFO  HomePage:60 - in search and search str: iPhone
+2021-06-27 17:43:21 INFO  HomePage:62 - in if, and search: iPhone
+2021-06-27 17:43:21 INFO  HomePage:64 - in search and search str: iPhone
+2021-06-27 17:43:26 INFO  HomePage:16 - in HomePage
+2021-06-27 17:43:31 INFO  HomePage:60 - in search and search str: iPhone
+2021-06-27 17:43:31 INFO  HomePage:62 - in if, and search: iPhone
+2021-06-27 17:43:31 INFO  HomePage:64 - in search and search str: iPhone
+2021-06-27 17:43:55 INFO  HomePage:16 - in HomePage
+2021-06-27 17:43:59 INFO  HomePage:134 - in search and search str: Laptop
+2021-06-27 17:44:02 INFO  HomePage:139 - info
+2021-06-27 17:44:07 INFO  HomePage:16 - in HomePage
+2021-06-27 17:44:11 INFO  HomePage:191 - in search and search str: Laptop
+2021-06-27 17:44:15 INFO  HomePage:196 - info
+2021-06-27 17:44:18 INFO  HomePage:16 - in HomePage
+2021-06-27 17:44:23 INFO  HomePage:92 - in search and search str: Laptop
+2021-06-27 17:44:26 INFO  HomePage:97 - info
+2021-06-27 17:44:31 INFO  HomePage:16 - in HomePage
+2021-06-27 17:44:36 INFO  HomePage:106 - in search and search str: Laptop
+2021-06-27 17:44:39 INFO  HomePage:111 - info
+2021-06-27 17:44:44 INFO  HomePage:16 - in HomePage
+2021-06-27 17:44:49 INFO  HomePage:76 - in search and search str: Laptop
+2021-06-27 17:44:52 INFO  HomePage:83 - info
+2021-06-27 17:44:57 INFO  HomePage:16 - in HomePage
+2021-06-27 17:45:01 INFO  HomePage:120 - in search and search str: Laptop
+2021-06-27 17:45:04 INFO  HomePage:125 - info
+2021-06-27 17:45:10 INFO  HomePage:16 - in HomePage
+2021-06-27 17:45:15 INFO  HomePage:148 - in search and search str: Laptop
+2021-06-27 17:45:19 INFO  HomePage:153 - info
+2021-06-27 17:45:25 INFO  HomePage:16 - in HomePage
+2021-06-27 17:45:30 INFO  HomePage:162 - in search and search str: Laptop
+2021-06-27 17:45:33 INFO  HomePage:167 - info
+2021-06-27 17:45:38 INFO  HomePage:16 - in HomePage
+2021-06-27 17:45:44 INFO  HomePage:176 - in search and search str: Laptop
+2021-06-27 17:45:47 INFO  HomePage:181 - info
+2021-06-27 17:45:53 INFO  HomePage:16 - in HomePage
+2021-06-27 17:45:58 INFO  HomePage:206 - in search and search str: Laptop
+2021-06-27 17:46:02 INFO  HomePage:211 - info
+2021-06-27 18:31:20 INFO  HomePage:16 - in HomePage
+2021-06-27 22:30:41 INFO  HomePage:16 - in HomePage
+2021-06-27 22:38:56 INFO  HomePage:16 - in HomePage
+2021-06-27 22:40:47 INFO  HomePage:16 - in HomePage
+2021-06-27 22:50:43 INFO  HomePage:16 - in HomePage
+2021-06-27 22:52:18 INFO  HomePage:16 - in HomePage
+2021-06-27 23:15:23 INFO  HomePage:16 - in HomePage
+2021-06-27 23:16:38 INFO  HomePage:16 - in HomePage
+2021-06-27 23:22:07 INFO  HomePage:16 - in HomePage
+2021-06-27 23:23:40 INFO  HomePage:16 - in HomePage
+2021-06-27 23:26:31 INFO  HomePage:16 - in HomePage
+2021-06-27 23:45:02 INFO  HomePage:16 - in HomePage
+2021-06-27 23:52:50 INFO  HomePage:16 - in HomePage
+2021-06-27 23:59:19 INFO  HomePage:16 - in HomePage
+2021-06-28 00:01:25 INFO  HomePage:16 - in HomePage
+2021-06-28 00:01:55 INFO  HomePage:16 - in HomePage
+2021-06-28 12:31:14 INFO  HomePage:16 - in HomePage
+2021-06-28 12:31:19 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-28 12:31:19 INFO  HomePage:65 - in if, and search: iPhone
+2021-06-28 12:31:19 INFO  HomePage:67 - in search and search str: iPhone
+2021-06-28 12:31:42 INFO  HomePage:16 - in HomePage
+2021-06-28 12:31:47 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-28 12:31:47 INFO  HomePage:65 - in if, and search: iPhone
+2021-06-28 12:31:47 INFO  HomePage:67 - in search and search str: iPhone
+2021-06-28 12:31:55 INFO  HomePage:16 - in HomePage
+2021-06-28 12:32:00 INFO  HomePage:63 - in search and search str: iPhone
+2021-06-28 12:32:00 INFO  HomePage:65 - in if, and search: iPhone
+2021-06-28 12:32:00 INFO  HomePage:67 - in search and search str: iPhone
+2021-06-28 13:35:17 INFO  HomePage:16 - in HomePage
+2021-06-28 13:35:21 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:35:21 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:35:21 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:35:32 INFO  HomePage:16 - in HomePage
+2021-06-28 13:35:37 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:35:37 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:35:37 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:35:44 INFO  HomePage:16 - in HomePage
+2021-06-28 13:35:48 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:35:48 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:35:48 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:39:02 INFO  HomePage:16 - in HomePage
+2021-06-28 13:39:06 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:39:06 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:39:06 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:39:18 INFO  HomePage:16 - in HomePage
+2021-06-28 13:39:26 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:39:26 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:39:26 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:39:34 INFO  HomePage:16 - in HomePage
+2021-06-28 13:39:38 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:39:38 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:39:38 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:42:21 INFO  HomePage:16 - in HomePage
+2021-06-28 13:42:24 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:42:24 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:42:24 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:42:33 INFO  HomePage:16 - in HomePage
+2021-06-28 13:42:38 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:42:38 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:42:38 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:42:47 INFO  HomePage:16 - in HomePage
+2021-06-28 13:42:52 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:42:52 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:42:52 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:44:31 INFO  HomePage:16 - in HomePage
+2021-06-28 13:44:34 INFO  HomePage:143 - in search and search str: Laptop
+2021-06-28 13:44:38 INFO  HomePage:148 - info
+2021-06-28 13:44:44 INFO  HomePage:16 - in HomePage
+2021-06-28 13:44:49 INFO  HomePage:204 - in search and search str: Laptop
+2021-06-28 13:44:53 INFO  HomePage:209 - info
+2021-06-28 13:44:56 INFO  HomePage:16 - in HomePage
+2021-06-28 13:45:01 INFO  HomePage:99 - in search and search str: Laptop
+2021-06-28 13:45:04 INFO  HomePage:103 - info
+2021-06-28 13:45:11 INFO  HomePage:16 - in HomePage
+2021-06-28 13:45:16 INFO  HomePage:113 - in search and search str: Laptop
+2021-06-28 13:45:20 INFO  HomePage:118 - info
+2021-06-28 13:45:26 INFO  HomePage:16 - in HomePage
+2021-06-28 13:45:30 INFO  HomePage:82 - in search and search str: Laptop
+2021-06-28 13:45:34 INFO  HomePage:89 - info
+2021-06-28 13:45:39 INFO  HomePage:16 - in HomePage
+2021-06-28 13:45:43 INFO  HomePage:128 - in search and search str: Laptop
+2021-06-28 13:45:46 INFO  HomePage:133 - info
+2021-06-28 13:45:52 INFO  HomePage:16 - in HomePage
+2021-06-28 13:45:56 INFO  HomePage:158 - in search and search str: Laptop
+2021-06-28 13:46:00 INFO  HomePage:163 - info
+2021-06-28 13:46:06 INFO  HomePage:16 - in HomePage
+2021-06-28 13:46:10 INFO  HomePage:173 - in search and search str: Laptop
+2021-06-28 13:46:14 INFO  HomePage:178 - info
+2021-06-28 13:46:21 INFO  HomePage:16 - in HomePage
+2021-06-28 13:46:33 INFO  HomePage:16 - in HomePage
+2021-06-28 13:46:37 INFO  HomePage:188 - in search and search str: Laptop
+2021-06-28 13:46:42 INFO  HomePage:193 - info
+2021-06-28 13:46:45 INFO  HomePage:16 - in HomePage
+2021-06-28 13:46:50 INFO  HomePage:220 - in search and search str: Laptop
+2021-06-28 13:46:55 INFO  HomePage:225 - info
+2021-06-28 13:48:08 INFO  HomePage:16 - in HomePage
+2021-06-28 13:48:11 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:48:11 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:48:11 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:48:20 INFO  HomePage:16 - in HomePage
+2021-06-28 13:48:25 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:48:25 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:48:25 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 13:48:31 INFO  HomePage:16 - in HomePage
+2021-06-28 13:48:35 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 13:48:35 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 13:48:35 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 14:15:08 INFO  HomePage:16 - in HomePage
+2021-06-28 14:15:12 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 14:15:12 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 14:15:12 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 14:15:20 INFO  HomePage:16 - in HomePage
+2021-06-28 14:15:25 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 14:15:25 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 14:15:25 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 14:15:30 INFO  HomePage:16 - in HomePage
+2021-06-28 14:15:35 INFO  HomePage:65 - in search and search str: iPhone
+2021-06-28 14:15:35 INFO  HomePage:67 - in if, and search: iPhone
+2021-06-28 14:15:35 INFO  HomePage:69 - in search and search str: iPhone
+2021-06-28 14:34:02 INFO  HomePage:16 - in HomePage
+2021-06-28 14:34:05 INFO  HomePage:143 - in search and search str: Laptop
+2021-06-28 14:34:09 INFO  HomePage:148 - info
+2021-06-28 14:34:14 INFO  HomePage:16 - in HomePage
+2021-06-28 14:34:19 INFO  HomePage:204 - in search and search str: Laptop
+2021-06-28 14:34:22 INFO  HomePage:209 - info
+2021-06-28 14:34:26 INFO  HomePage:16 - in HomePage
+2021-06-28 14:34:31 INFO  HomePage:99 - in search and search str: Laptop
+2021-06-28 14:34:35 INFO  HomePage:103 - info
+2021-06-28 14:34:39 INFO  HomePage:16 - in HomePage
+2021-06-28 14:34:44 INFO  HomePage:113 - in search and search str: Laptop
+2021-06-28 14:34:47 INFO  HomePage:118 - info
+2021-06-28 14:34:52 INFO  HomePage:16 - in HomePage
+2021-06-28 14:34:56 INFO  HomePage:82 - in search and search str: Laptop
+2021-06-28 14:34:59 INFO  HomePage:89 - info
+2021-06-28 14:35:04 INFO  HomePage:16 - in HomePage
+2021-06-28 14:35:08 INFO  HomePage:128 - in search and search str: Laptop
+2021-06-28 14:35:13 INFO  HomePage:133 - info
+2021-06-28 14:35:19 INFO  HomePage:16 - in HomePage
+2021-06-28 14:35:23 INFO  HomePage:158 - in search and search str: Laptop
+2021-06-28 14:35:26 INFO  HomePage:163 - info
+2021-06-28 14:35:31 INFO  HomePage:16 - in HomePage
+2021-06-28 14:35:36 INFO  HomePage:173 - in search and search str: Laptop
+2021-06-28 14:35:39 INFO  HomePage:178 - info
+2021-06-28 14:35:44 INFO  HomePage:16 - in HomePage
+2021-06-28 14:35:57 INFO  HomePage:16 - in HomePage
+2021-06-28 14:36:01 INFO  HomePage:188 - in search and search str: Laptop
+2021-06-28 14:36:05 INFO  HomePage:193 - info
+2021-06-28 14:36:10 INFO  HomePage:16 - in HomePage
+2021-06-28 14:36:14 INFO  HomePage:220 - in search and search str: Laptop
+2021-06-28 14:36:18 INFO  HomePage:225 - info

@@ -34,7 +34,7 @@ public class PositiveTest extends TestBase {
                 .search(search2);
         List<WebElement> lst = resultAndFilterPage.returnItemsName();
 
-        Assert.assertEquals(lst.size(), 20);
+        Assert.assertTrue(lst.size()>19);
 
     }
 }

@@ -1,5 +1,6 @@
 package utils;
 
+import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -18,18 +19,18 @@ public class ScreenShot {
         this.driver = driver;
     }
 
-    public static void makeScreenShot(ITestResult result) {
+    public static void makeScreenShoot(ITestResult result) {
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File src = screenshot.getScreenshotAs(OutputType.FILE);
         Path currentRelativePath = Paths.get("");
-            try {
-                FileUtils.copyFile(src, new File(currentRelativePath.toAbsolutePath() + "\\screenshots\\"
-                        + result.getTestClass().getName().replace(".", "\\\\")
-                        + "\\" + result.getMethod().getConstructorOrMethod().getName() + ".png"));
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        try {
+            FileUtils.copyFile(src, new File(currentRelativePath.toAbsolutePath() + "\\screenshots\\"
+                    + result.getTestClass().getName().replace(".", "\\\\")
+                    + "\\" + result.getMethod().getConstructorOrMethod().getName() + ".png"));
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+    }
 
     }
 

@@ -7,11 +7,6 @@
         <listener class-name="utils.PropertyLoader"></listener>
     </listeners>
     <test name="Test">
-        <parameter name="url" value="https://www.amazon.com/" />
-        <parameter name="username" value="nfrendziuk" />
-        <parameter name="password" value="4esZXdr5" />
-        <parameter name="search1" value="Samsung" />
-        <parameter name="search2" value="iPhone" />
         <classes>
             <class name="HomeWork11.NegativeTest"/>
             <class name="HomeWork11.PositiveTest"/>
