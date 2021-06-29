@@ -37,4 +37,14 @@ public class PositiveTest extends TestBase {
         Assert.assertTrue(lst.size()>19);
 
     }
+
+    @Test
+    public void getOnlyIphoneInResultX() throws Exception {
+        homePage.open()
+                .search("Nokia");
+        List<WebElement> lst = resultAndFilterPage.returnItemsName();
+
+        Assert.assertEquals(lst.size(), 5);
+
+    }
 }

@@ -41,11 +41,13 @@ public class NegativeTest extends TestBase {
     }
 
     @Test
-    @Parameters("search1")
-    public void NewParameter(@Optional("search1") String search1) throws
-            Exception, IOException, InterruptedException {
+    public void getOnlyIphoneInResultX() throws Exception {
+        homePage.open()
+                .search("Xiaomi");
+        List<WebElement> lst = resultAndFilterPage.returnItemsName();
 
-        System.out.println("Search value " + search1);
+        Assert.assertEquals(lst.size(), 10);
+
     }
 }
 
